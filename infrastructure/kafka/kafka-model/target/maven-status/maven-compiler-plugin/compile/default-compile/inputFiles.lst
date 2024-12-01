@@ -1,9 +1,0 @@
-/Users/sergeizh/IdeaProjects/course/ordering_system_saga/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/RestaurantApprovalResponseAvroModel.java
-/Users/sergeizh/IdeaProjects/course/ordering_system_saga/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/PaymentOrderStatus.java
-/Users/sergeizh/IdeaProjects/course/ordering_system_saga/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/PaymentResponseAvroModel.java
-/Users/sergeizh/IdeaProjects/course/ordering_system_saga/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/RestaurantApprovalRequestAvroModel.java
-/Users/sergeizh/IdeaProjects/course/ordering_system_saga/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/OrderApprovalStatus.java
-/Users/sergeizh/IdeaProjects/course/ordering_system_saga/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/Product.java
-/Users/sergeizh/IdeaProjects/course/ordering_system_saga/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/PaymentRequestAvroModel.java
-/Users/sergeizh/IdeaProjects/course/ordering_system_saga/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/PaymentStatus.java
-/Users/sergeizh/IdeaProjects/course/ordering_system_saga/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/RestaurantOrderStatus.java
