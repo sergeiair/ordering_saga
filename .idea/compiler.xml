@@ -7,11 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for food-ordering-system" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+        </processorPath>
         <module name="common-application" />
-        <module name="kafka-model" />
         <module name="customer-service" />
-        <module name="order-application-service" />
+        <module name="kafka-model" />
         <module name="kafka-consumer" />
+        <module name="order-application-service" />
         <module name="kafka-producer" />
         <module name="payment-messaging" />
         <module name="kafka-config-data" />
@@ -28,6 +36,15 @@
         <module name="common-dataaccess" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="restaurant-application-service" target="17" />
+      <module name="restaurant-container" target="17" />
+      <module name="restaurant-dataaccess" target="17" />
+      <module name="restaurant-domain" target="17" />
+      <module name="restaurant-domain-core" target="17" />
+      <module name="restaurant-messaging" target="17" />
+      <module name="restaurant-service" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

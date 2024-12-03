@@ -1,0 +1,5 @@
+/Users/sergeizh/IdeaProjects/course/ordering_system_saga/infrastructure/kafka/kafka-producer/src/main/java/com/food/ordering/system/kafka/producer/KafkaProducerConfig.java
+/Users/sergeizh/IdeaProjects/course/ordering_system_saga/infrastructure/kafka/kafka-producer/src/main/java/com/food/ordering/system/kafka/producer/KafkaMessageHelper.java
+/Users/sergeizh/IdeaProjects/course/ordering_system_saga/infrastructure/kafka/kafka-producer/src/main/java/com/food/ordering/system/kafka/producer/service/KafkaProducer.java
+/Users/sergeizh/IdeaProjects/course/ordering_system_saga/infrastructure/kafka/kafka-producer/src/main/java/com/food/ordering/system/kafka/producer/service/impl/KafkaProducerImpl.java
+/Users/sergeizh/IdeaProjects/course/ordering_system_saga/infrastructure/kafka/kafka-producer/src/main/java/com/food/ordering/system/kafka/producer/exception/KafkaProducerException.java
