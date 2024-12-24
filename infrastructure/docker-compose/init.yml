@@ -7,8 +7,8 @@ services:
       - "8181:8181"
     environment:
       SPRING_DATASOURCE_URL: "jdbc:postgresql://postgres_container:5432/postgres?currentSchema=order&binaryTransfer=true&reWriteBatchedInserts=true&stringtype=unspecified"
-      KAFKA-CONFIG_BOOTSTRAP-SERVERS: "docker-compose_kafka-broker-1_1:9092,docker-compose_kafka-broker-2_1:9092,docker-compose_kafka-broker-3_1:9092"
-      KAFKA-CONFIG_SCHEMA-REGISTRY-URL: "http://docker-compose_schema-registry_1:8081"
+      SPRING_KAFKA_BOOTSTRAP_SERVERS: "kafka-broker-1:9092,kafka-broker-2:9092,kafka-broker-3:9092"
+      KAFKA-CONFIG_SCHEMA-REGISTRY-URL: "docker-compose_schema-registry_1:8081"
     deploy:
       resources:
         limits:
@@ -25,8 +25,8 @@ services:
       - "8182:8182"
     environment:
       SPRING_DATASOURCE_URL: "jdbc:postgresql://postgres_container:5432/postgres?currentSchema=payment&binaryTransfer=true&reWriteBatchedInserts=true&stringtype=unspecified"
-      KAFKA-CONFIG_BOOTSTRAP-SERVERS: "docker-compose_kafka-broker-1_1:9092,docker-compose_kafka-broker-2_1:9092,docker-compose_kafka-broker-3_1:9092"
-      KAFKA-CONFIG_SCHEMA-REGISTRY-URL: "http://docker-compose_schema-registry_1:8081"
+      SPRING_KAFKA_BOOTSTRAP_SERVERS: "kafka-broker-1:9092,kafka-broker-2:9092,kafka-broker-3:9092"
+      KAFKA-CONFIG_SCHEMA-REGISTRY-URL: "docker-compose_schema-registry_1:8081"
     deploy:
       resources:
         limits:
@@ -43,8 +43,8 @@ services:
       - "8183:8183"
     environment:
       SPRING_DATASOURCE_URL: "jdbc:postgresql://postgres_container:5432/postgres?currentSchema=restaurant&binaryTransfer=true&reWriteBatchedInserts=true&stringtype=unspecified"
-      KAFKA-CONFIG_BOOTSTRAP-SERVERS: "docker-compose_kafka-broker-1_1:9092,docker-compose_kafka-broker-2_1:9092,docker-compose_kafka-broker-3_1:9092"
-      KAFKA-CONFIG_SCHEMA-REGISTRY-URL: "http://docker-compose_schema-registry_1:8081"
+      SPRING_KAFKA_BOOTSTRAP_SERVERS: "kafka-broker-1:9092,kafka-broker-2:9092,kafka-broker-3:9092"
+      KAFKA-CONFIG_SCHEMA-REGISTRY-URL: "docker-compose_schema-registry_1:8081"
     deploy:
       resources:
         limits:
@@ -61,8 +61,8 @@ services:
       - "8184:8184"
     environment:
       SPRING_DATASOURCE_URL: "jdbc:postgresql://postgres_container:5432/postgres?currentSchema=customer&binaryTransfer=true&reWriteBatchedInserts=true&stringtype=unspecified"
-      KAFKA-CONFIG_BOOTSTRAP-SERVERS: "docker-compose_kafka-broker-1_1:9092,docker-compose_kafka-broker-2_1:9092,docker-compose_kafka-broker-3_1:9092"
-      KAFKA-CONFIG_SCHEMA-REGISTRY-URL: "http://docker-compose_schema-registry_1:8081"
+      SPRING_KAFKA_BOOTSTRAP_SERVERS: "kafka-broker-1:9092,kafka-broker-2:9092,kafka-broker-3:9092"
+      KAFKA-CONFIG_SCHEMA-REGISTRY-URL: "docker-compose_schema-registry_1:8081"
     deploy:
       resources:
         limits:
