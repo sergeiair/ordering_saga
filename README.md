@@ -8,3 +8,6 @@
 ### docker-compose  -f common.yml  -f init.yml up -d
 ### docker-compose  -f common.yml  -f postgres.yml up -d
 ### docker-compose  -f common.yml  -f init_kafka.yml up -d
+
+
+#### docker-compose  -f common.yml  -f init.yml down
