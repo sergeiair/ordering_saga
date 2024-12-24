@@ -8,7 +8,7 @@ services:
     environment:
       SPRING_DATASOURCE_URL: "jdbc:postgresql://postgres_container:5432/postgres?currentSchema=order&binaryTransfer=true&reWriteBatchedInserts=true&stringtype=unspecified"
       SPRING_KAFKA_BOOTSTRAP_SERVERS: "kafka-broker-1:9092,kafka-broker-2:9092,kafka-broker-3:9092"
-      KAFKA-CONFIG_SCHEMA-REGISTRY-URL: "docker-compose_schema-registry_1:8081"
+      KAFKA-CONFIG_SCHEMA-REGISTRY-URL: "http://schema-registry:8081"
     deploy:
       resources:
         limits:
@@ -28,7 +28,8 @@ services:
     environment:
       SPRING_DATASOURCE_URL: "jdbc:postgresql://postgres_container:5432/postgres?currentSchema=payment&binaryTransfer=true&reWriteBatchedInserts=true&stringtype=unspecified"
       SPRING_KAFKA_BOOTSTRAP_SERVERS: "kafka-broker-1:9092,kafka-broker-2:9092,kafka-broker-3:9092"
-      KAFKA-CONFIG_SCHEMA-REGISTRY-URL: "docker-compose_schema-registry_1:8081"
+      KAFKA-CONFIG_SCHEMA-REGISTRY-URL:  "http://schema-registry:8081"
+
     deploy:
       resources:
         limits:
@@ -48,7 +49,7 @@ services:
     environment:
       SPRING_DATASOURCE_URL: "jdbc:postgresql://postgres_container:5432/postgres?currentSchema=restaurant&binaryTransfer=true&reWriteBatchedInserts=true&stringtype=unspecified"
       SPRING_KAFKA_BOOTSTRAP_SERVERS: "kafka-broker-1:9092,kafka-broker-2:9092,kafka-broker-3:9092"
-      KAFKA-CONFIG_SCHEMA-REGISTRY-URL: "docker-compose_schema-registry_1:8081"
+      KAFKA-CONFIG_SCHEMA-REGISTRY-URL: "http://schema-registry:8081"
     deploy:
       resources:
         limits:
@@ -68,7 +69,7 @@ services:
     environment:
       SPRING_DATASOURCE_URL: "jdbc:postgresql://postgres_container:5432/postgres?currentSchema=customer&binaryTransfer=true&reWriteBatchedInserts=true&stringtype=unspecified"
       SPRING_KAFKA_BOOTSTRAP_SERVERS: "kafka-broker-1:9092,kafka-broker-2:9092,kafka-broker-3:9092"
-      KAFKA-CONFIG_SCHEMA-REGISTRY-URL: "docker-compose_schema-registry_1:8081"
+      KAFKA-CONFIG_SCHEMA-REGISTRY-URL: "http://schema-registry:8081"
     deploy:
       resources:
         limits:
